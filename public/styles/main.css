@@ -1,0 +1,79 @@
+body{
+  background-color:rgb(158, 157, 124);
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.card{
+  background-color: #092635;
+  background-size: cover;
+  width: 90vw;
+  height: 85vh;
+  color: #fff;
+  padding: 30px;
+  margin: 20px ;
+ margin-left: 40px;
+ margin-right: 40px;
+  
+  border-radius: 20px;
+ 
+}
+.search{
+  display: flex;
+  justify-content: center;
+}
+.search input{
+  width: 40vw;
+  height: 40px;
+  border-radius: 20px;
+  margin-left: 20px;
+  padding-left: 20px;
+  font-size: 19px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.search button{
+  width: 5vw;
+  height: 40px;
+  border-radius: 20px;
+}
+
+.weather{
+  display: inline;
+  padding-left: 40%;
+}
+
+.temp{
+  margin-left: 45%;
+}
+.city{
+  margin-left: 45%;
+}
+.details{
+  display: flex;
+  justify-content: space-around;
+}
+.bottom{
+  margin: 30vw;
+}
+.errorr{
+  justify-content: center;
+
+  
+}
+#errorrr{
+  margin: 20px;
+  padding-left:500px;
+}
+#error{
+  margin: 20px;
+  padding-left:500px;
+}
+#buttonimg{
+  width:26px ;
+  height: 22px;
+}
+#button{
+
+  width: 80px;
+  height: 44px;
+}

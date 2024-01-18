@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Weather app</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Titan+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="styles/main.css">
+</head>
+
+<body>
+    <div class="card ">
+      <div class="search">
+        <form action="/" method="post">
+        <input name="city" type="text" placeholder="Enter your city">
+        <button  id="button" type="submit" ><img id="buttonimg" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAACUCAMAAAANv/M2AAAAaVBMVEX///8AAADU1NT09PTa2tr8/Pzd3d3t7e1DQ0M/Pz/5+fnj4+Px8fGpqanJycnm5uY6OjogICAzMzNTU1O2trZYWFiampoVFRW+vr4ODg5MTEyEhIR2dnawsLCKioqUlJRiYmIqKipra2uICGlIAAAHHklEQVR4nNVc6YKCOAweuW+QSwREmfd/yNWddWdIgtA2rTPff9vPkOZqmo8PVdi+1d7K84HE3KRWnijvwQo3ztKGpvsDTZvF7rupPmFfhmqT8ReqsfPfTfeBeAhOOyk/cAxH782Mk+woQPiJsnujesdpL0H5gSDN30M5kab8QNW+Q9p1oED5gSI1zNh1SkXKD4SZSQuYXxko33GeYmOc671meRt9Z4jzdcVXS+E0mVARS/UAQoSOds71Hm9yOpZhEARhOe9ylp1eYbvtFoHg85rWWWY5juc4VpbVafsZbv2ojTRyjqbXm4917NtQbK7tx93w+oeDPlnnL8LPuW9fmy+/7ef1n5e6ZJ2vu+1qsnbIKruu/+tGTzAS39Y2vHV7fUTerdLWwjpf41xktsAySbZmMnt+DVnTjSoTXior6KVmbtYR/VmLq8xGdkvTvvFGqy5t60ZLcj1nJNcbRBRtE7RPuch/zyglV+QMsWtqg14trIxJhauZGN9jJCreGFRrAT6pcmwBNmWkUgb1o5SO6zBSacqFZeULsfKVZeUax/wnceNMI5sxa45cJse51YkvR8ow6V69cOYSysEl5weI7zgoL+ro0ucnCIOtnH/h+gZ3jQXbkF4xJcBuhdfV3uGirOasJpcEpXcMxwTCRptUSrE1VjgdJSEL7aLizWMURPMewieQEs4KokaCHvXknzaKVOW1OoGCLmTj5y04M9jpKL0Uclc8cQEFZPeknS6MSCuNhSBYPwsk1/Hgv+d03xAd2GuW3Awa/ZCX5hI2rFBMcsvA2F+noLGo5Yo3F6BmN27/vYT9CVjLHEUUEui+aIBOYZI49jEI/ivddzowBCkkohyoY3IHQwTw00rcoQNzP+tyht/wAWnxDCYBtZTKwCUUSDjEXTn8260GkhDQlwvLCcYdJq5WoQsW1kiYhOsgCQGjSmGlBr8fdZCEgOWKRnQBIGgzV9gggwkEfXD0BpW+H6RlMFwI7gpyzcBMjxfwwkfB7wvqmZ96g6UnQK4oWv8AJvNqqAUG1NkFnQNIj021GwFZCdo84MT5rkJeo17G8KPYB16aabYi+ha6pfkYxY7SkvTRFGlwM3ATMlruknSpPy79grcM9MTyxGSZ1BpoM/pCvrx/FsuW/GXqE5giDfbthZIXSNpU9zD4wmKkwY/fJmkh9bDfpNOxik5HS9LGrIejYj2AnZatBgpDyU7/Fo8oVmQCsYep3ltQPxTsMfyTUR74dfsn4un3ZC6RWuYC7vFDQzkiCC4Fj5K9JP2ebLwUjR4AaTPmA5SXResesNlKvXFkB5QrTLCCqYMkhA8kJVzHh1VTE2+tYNVU2A/nYIE/UZ+GNwG9DpYA4CbgJL4CvHPRHzPFQNAS7QNQqfV1IDwBb7ckgnjj94iwX6qU8MIu7Hb5Cze2MCA/NHqfavqwDUFKSD7sPDPbhSCpjmb7PWATgmTgYLSzBhor6Zon7DMtNKYCUEDCwdITUM00+nK+bjHcl6er0sTYl2esAzJCHZAK3xS31uupJSDhhCo+ATdk6yj6WuglrlIfboJehlX8eXmE3tGo9U8Tner877zx+1tVJcSvibhjVPwa6qa6pIWfdPAexhRvoGxYqXcunEHqBT9mYyhX4BZ7ztSLeDRYcCT+HTEagOuunHhxxlTA1/dKLp3xykxdGtiOHngq1hMxc6Pnyo+I91sML4sicj4Cn+9CMeoDodo9HT0nhPEdzcqEjFpe2FFKT/44McY29Kc8jLJuYOXd+IH5KQ09wmiWi3vbeY3zXes4Zb0yLuLcieqITTxRXYBR1qsTSW5CtP0O1gqwHBhlvT6T5DPda1yTdHVIyA8o2qUFonl1m2LXe/14CveNcOJMoKNXYipbz1/3kq7vrczHIHFmlHXyejpQcK2zGCt4FGfdVXDk1JlT1vSEi28cq3FqL13m5X7ix07WXdpprCTGF7Laa3JqBsDpOJdFGIRFOR/3jLyCD67+Bae9fjEkSBK9/+GRM7E4ZZ1sjuoSwen6MJcWyZq1xtKpDH9covhvOCEqKz/Aaa/vbm1jVNhuDP/ng7jKdGAveMY9w6S/5icn/Xp99xaX7eG8r1GB+olFOR/OOOSBvFaZuFngcaweqSHcfYx5KjP09oETOYqV1mv+Om0XzMKMj81aicojNURDz2g2iSl3NbyoqtH2WselSd5NewO4ctoYredRRknPCIbI96Zt9T5dLX/zzgbP+jgwxyELuNbQBMURi+p8LINq2juX14S9XsKO67QdxvHWVH3fV81tHIY27TyRLJK011ruehZwbT+PPS+Ocz+SKPkZiEM0wEQcwg/SXp9+O2tSr2XnlBgDGYeY6peXBmWvb+8mtQlCrwOdw5N5gOMQQ63nSkD2+g9IGt8WS7cIGQWIQ3699fjCwl7/ejv9hPNtr7UNNuOH98yLGuzF/wFHBlpF/1FpxQAAAABJRU5ErkJggg==" alt=""></button>
+      </form>
+      </div>
+      <% if(locals.data){ %>
+        <div class="center">
+      <div class="weather">
+        <img src="images/<%= data.weather[0].main %>.png" class="weather-icon" alt="">
+        <h1 class="temp"><%= data.main.temp %> °C </h1>
+        <h2 class="city"><%= data.name %> </h2>
+      </div>
+      <div class="details">
+        <div class="col">
+          <img src="images/humidity.png" alt="">
+          <p class="Humidity"><%= data.main.humidity %>%</p>
+          <p>Humidity</p>
+        </div>
+        <div class="col1">
+          <img src="images/wind.png" alt="">
+          <p class="wind"><%= data.wind.speed %>%</p>
+          <p>Wind Speed</p>
+        </div>
+      </div>
+    </div>
+  </div>
+      <% }else{ %>
+        <img class="errorr" id="errorrr" src="images\images-removebg-preview.png" alt="">
+<h1 class="errorr" id="error">Enter the correct city</h1>
+
+      <% } %>
+
+
+</body>
+
+</html>
